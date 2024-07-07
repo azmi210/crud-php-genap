@@ -1,0 +1,7 @@
+CREATE TABLE `biodata` (
+  `id_biodata` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(255) NOT NULL,
+  `alamat` varchar(255) NOT NULL,
+  `hobi` varchar(255) NOT NULL,
+  PRIMARY KEY (`id_biodata`)
+);
